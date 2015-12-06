@@ -1,0 +1,22 @@
+Tree house lesson: Git Basics
+
+Introduction
+
+VCS			| Version control system (record all changes)
+cowboy			| Work without regard for desk best practices
+repo			| collection of versions for one particular project
+commit			| Save changes to a new version
+changelog		| log that allows you to view all changes historically
+share repos		| between different people working on them
+Linus Torvalds		| Invetor of git and linux
+distributed vcs		| no central repositry / each user has own repo
+github			| most popular / social network for repoo's
+
+Working with Repositories
+
+use git --version	| find out if git is installed
+git init name		| creates a new repo with that name
+git init                | creates a new repo of folder you're in
+rm -r .git		| remove git repo
+git add FILENAME	| add files into repo within folder
+

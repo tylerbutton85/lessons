@@ -1,0 +1,119 @@
+Tree house: Console lesson
+
+
+Getting started
+
+ls		| list directory. 
+ls -l		| list long form
+ls -a		| list all (hidden files that start with ‘.’)
+pwd		| print working directory (current location)
+cd		| change directory (navigate to folder)
+bash		| program handling input / output
+/PATH		| absolute path
+~/PATH		| relative to home directory
+..		| up a directory 
+.		| current directory 
+less		| program that displays the content of a file
+less		| older program that displays the content of a file
+q		| quit for certain programs 
+cat		| concatenate paths together / prints contents
+nano		| text editor  
+mv		| move, moves or renames a file directory
+cp		| copy a file or directory
+cp -r		| copy a file or directory recursively
+rm		| removes a file or directory
+rm -r		| removes a file or directory recursively
+mkdir		| creates a are directory
+mkdir -p	| makes directory at any level
+
+Users and permissions. 
+
+whoami		| print which user you are
+adduser		| tool that creates users 
+su		| switch user
+sudo		| perform a command as the super user
+sudo !!		| perform previous command as the super user
+exit		| stop a command
+rwx		| read write execute
+ugo		| User Group Other
+chmod		| changes the permissions (mode) of a file or directory
+o+w		| add permission to write
+octal notation	| counting with base 8 ( not base 10)
+r		| 4
+w		| 2
+x		| 1 use digits to apply permissions
+chown		| changes the owner of a file
+root user	| overwrites all commands (all powerful) 
+
+Processes. 
+
+top		| show active process
+?		| find out prompts 
+ps		| show process statues 
+ps aux		| shows every process being ran
+grep		| search for a pattern
+man grep	| search grep manual
+grep -n		| search for a pattern and shows line number
+grep -i		| search for a pattern without case sensitivity 
+grep -v		| search for a pattern without argument
+ctrl + z	| Stope (pause) a process
+ctrl + c	| Terminate (exit) a process
+fg		| bring a job to foreground
+jobs		| lists jobs for your session
+&		| sends a process directly to the back
+signals		| a message sent to a process by OS
+term		| signal to terminate a program
+kill		| quits a process (pid) 
+kill -9		| quits a process (pid) 
+kill -TERM	| requests a process to stop normally
+kill -STOP	| stop or pause a process
+
+Environment Variables. 
+
+env		| prints environment values
+PS1		| Defines what our prompt is
+echo $		| echoes back command (shows actual values)
+bash		| Start new session within current session
+with		| Print the location of a program
+export		| make available for all sessions 
+
+Find and Grep.
+
+find . -name "search" | look for files starting from current directory.
+find / -name "search" | look for files on entire machine
+
+
+Pipes and Redirection
+I
+ctrl + d	| Signifies standard input is over
+< FILE		| New standard input (opposed to keyboard) 
+> FILE		| Redirect standard output (opposed to console) 
+>> FILE		| appends content to end of file (opposed to overwrite) 
+2> FILE		| redirect the standard error stream to file
+/dev/null	| a file that anything is put into will disappear
+command1 | command2	| pipe the output of command1 to the input of command 2
+sort		| sorts and outputs files sorted
+
+
+Building Software From Source
+
+apt-get update	| update package manger
+apt-get install	| install a package by name
+curl -O URL	| curl makes requests from internet 
+tar -xvf FILENAME.tar.gz | unzips / decompresses tar file
+.configure	| run configure script in the current directory
+make		| run the build specified in the Make file
+make install	| move files to somewhere accessible in our path 
+
+Introduction to Package Managers
+
+apt-cache search PATTERN	| search the available packages for a pattern
+apt-get install PACKAGE	| Install one or more packages
+apt-get upgrade 		| Upgrade to the latest version of all the packages installed
+apt-get remove PACKAGE		| Remove or uninstall package from your computer 
+
+
+
+
+
+
