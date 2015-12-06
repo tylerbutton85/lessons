@@ -19,4 +19,11 @@ git init name		| creates a new repo with that name
 git init                | creates a new repo of folder you're in
 rm -r .git		| remove git repo
 git add FILENAME	| add files into repo within folder
+ZZ			| Finish adding git commit message vim
+git config --global	| Edit details of a commit
+git config --global user.name	| define user name
+git config --global user.email	| define user email
+When should i commit?	| When you have a relevant commit message to write
+git commit -a		| all changes 
+git commit -a -m	| all changes with message
 
