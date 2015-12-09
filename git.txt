@@ -36,4 +36,14 @@ git checkout		| view different version from the one looking at currently
 git master		| go back to master branch
 git diff		| view was different between to versions of repo
 
+Working with branches
 
+branches		| Alternate versions that run in parrell to the original trunk
+master branch		| also known as trunk
+git branch NAME		| create new branch name
+git checkout master	| return to trunk
+git checkout NAME	| switch to new branch
+git checkout -b NAME	| Creates a branch of NAME and switches to it directly 
+
+Managing branches	| 
+ 
