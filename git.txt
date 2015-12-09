@@ -55,4 +55,29 @@ git merge branchName	| merges the history of branch name to current branch
  
 Working with remotes
 
+git log			| shows log of all of our commits
+unique commit id	| all called hash (yellow highlight)
+git checkout		| view different version from the one looking at currently
+git master		| go back to master branch
+git diff		| view was different between to versions of repo
+
+Working with branches
+
+branches		| Alternate versions that run in parrell to the original trunk
+master branch		| also known as trunk
+git branch NAME		| create new branch name
+git checkout master	| return to trunk
+git checkout NAME	| switch to new branch
+git checkout -b NAME	| Creates a branch of NAME and switches to it directly 
+git branch		| Shows list of all branches
+git branch -D name	| Deletes branch with name
+
+Introduction to Merging
+
+merging			| bringing together commits in branches back into trunk
+merge conflict		| have to make decision about which changes to commit to trunk
+git merge branchName	| merges the history of branch name to current branch 
+ 
+Working with remotes
+
 
