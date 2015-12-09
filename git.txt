@@ -44,6 +44,15 @@ git branch NAME		| create new branch name
 git checkout master	| return to trunk
 git checkout NAME	| switch to new branch
 git checkout -b NAME	| Creates a branch of NAME and switches to it directly 
+git branch		| Shows list of all branches
+git branch -D name	| Deletes branch with name
 
-Managing branches	| 
+Introduction to Merging
+
+merging			| bringing together commits in branches back into trunk
+merge conflict		| have to make decision about which changes to commit to trunk
+git merge branchName	| merges the history of branch name to current branch 
  
+Working with remotes
+
+
