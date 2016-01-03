@@ -80,4 +80,10 @@ git merge branchName	| merges the history of branch name to current branch
  
 Working with remotes
 
+pushing			| push changes to a remote repo
+pulling			| pull changes from a remote repo
+cloning			| first step, clone from remote to local
+
+git clone URL NAME	| create a clone from remote
+git remote		| show all remotes attached to repo
 
