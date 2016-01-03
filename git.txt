@@ -8,9 +8,9 @@ repo			| collection of versions for one particular project
 commit			| Save changes to a new version
 changelog		| log that allows you to view all changes historically
 share repos		| between different people working on them
-Linus Torvalds		| Invetor of git and linux
-distributed vcs		| no central repositry / each user has own repo
-github			| most popular / social network for repoo's
+Linus Torvalds		| Inventor of git and linux
+distributed vcs		| no central repository / each user has own repo
+github			| most popular / social network for repo's
 
 Working with Repositories
 
@@ -38,7 +38,7 @@ git diff		| view was different between to versions of repo
 
 Working with branches
 
-branches		| Alternate versions that run in parrell to the original trunk
+branches		| Alternate versions that run in paralle to the original trunk
 master branch		| also known as trunk
 git branch NAME		| create new branch name
 git checkout master	| return to trunk
@@ -63,7 +63,7 @@ git diff		| view was different between to versions of repo
 
 Working with branches
 
-branches		| Alternate versions that run in parrell to the original trunk
+branches		| Alternate versions that run in paralle to the original trunk
 master branch		| also known as trunk
 git branch NAME		| create new branch name
 git checkout master	| return to trunk
@@ -86,4 +86,22 @@ cloning			| first step, clone from remote to local
 
 git clone URL NAME	| create a clone from remote
 git remote		| show all remotes attached to repo
+git remote add NAME URL		| attaches remote to local version
+git push REMOTE-NAME BRANCH-NAME	| pushes local branch changes to remote
+git pull REMOTE-NAME BRANCH-NAME	| pull changes from remote branch
+pull requests 		| like branches, place for people to work on / discuss changes
+fork			| Creates a clone in own Github account
+
+
+Feature branches	| New branch for new features or substantial changes
+GitFlow			| new branch for everything / change you make
+git flow init		| start new git flow repo 
+git flow feature start feature_name	| create new branch with feature as name
+git flow feature finish feature_name	| completes branch and merges for you
+git flow hot fix start name		| creates branch on master with the hot fix names
+git flow hot fix finish name		| finishes hot fix and merges
+
+
+
+
 
