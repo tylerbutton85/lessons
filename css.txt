@@ -1,0 +1,67 @@
+Introduction
+————
+
+HTML	- Structure
+CSS	- presentation 
+JS	- Behaviour
+
+CSS	- Presentational style that can be applied to all browsers, broken away from inline styles. Since HTML 4.0
+	- CSS helped improve accessibly with styling for lots of different attributes. 
+	- CSS3 has launched in browser features, flexbox, rounded corners etc.
+
+
+Staying current		- MDN, Mozilla developer CSS reference. All standard selectors and details on each.
+			- Web platform docs, helpful info about CSS topics.Various functions. (docs.webplatform.org)
+			- W3C actually specifications. Web standards as they’re developed. 
+			- caniuse.com shows browser support information, latest supports for functions. 
+
+Inline vs Internal
+————
+	
+User agent styles	- Browser defaults to make html presentable.
+Author styles		- Inline, internal and external.
+
+Inline			- directly inside element. Not best practice, used sparingly if at all. Difficult maintenance. 
+Internal		- embedded in page, using style tags within head of page. Can create conflicts and duplicates. 
+External		- Most efficient, one file changes style for whole website. Flexibility advantageous and it’s cached. 
+
+Link tag		- Links styles to page. Comprises of at least 2 attributes; 
+rel=“stylesheet”	- Specifies the relationship between the link of the pages.
+href=“”			- href points to location of the file, includes path.
+import statement	- makes CSS more modular, base, layout and typography… although can increase load time.
+
+
+Selectors 
+————
+
+CSS rules		- Tell browsers how to render HTML elements, made of selector and declaration block. 
+Selector		- Defines what is being targeted, where to apply the style. 
+Declaration block	- Decorations that style the element we’re selector. Comprises of property and a value. 
+Property		- part of element we want to change. 
+Value			- how we want to change the property. 
+
+*			- Universal selector, applies to every element and overrides everything else.
+element selectors	- Used to select elements on the page.
+
+
+ID selectors
+————
+
+Element can only have one ID and a page can only have one element with the same ID name. 
+
+#idname			- pound symbol followed by ID name. 
+name=“”			- Can be used to find elements with that id. 
+
+Class selectors
+————
+
+Class can be use to classify and target more than one element, element can have multiple classes attached to it. 
+
+A class and an ID can be applied to one element, but ID’s carry more ‘weight’ than a class. 
+
+.classname		- only targets elements with matching class tag.
+
+
+
+
+
