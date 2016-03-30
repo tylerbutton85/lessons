@@ -52,15 +52,43 @@ Element can only have one ID and a page can only have one element with the same 
 #idname			- pound symbol followed by ID name. 
 name=“”			- Can be used to find elements with that id. 
 
+
 Class selectors
 ————
 
 Class can be use to classify and target more than one element, element can have multiple classes attached to it. 
-
-A class and an ID can be applied to one element, but ID’s carry more ‘weight’ than a class. 
+A class and an ID can be applied to one element, but ID’s carry more ‘weight’ than a class selector. 
 
 .classname		- only targets elements with matching class tag.
 
+
+
+Descendant selectors
+————
+
+Target elements that are decedents of other elements, used for targeting lists. 
+
+ul li {}		- adds specificity to descendants. 
+
+
+Pseudo-Classes
+————
+
+Similar to classes, but aren’t explicitly written in source code. Can target elements dynamically based on interaction. 
+
+a:link			- links that have not yet been visited. 
+
+a:visited		- target visited links 
+a:hover			- targets links that are hovered over
+a:active		- applied when element has been activated by the user
+a:focus			- only applied to interactive elements, when browser determine a user is ready to interact with. 
+/* */			- comments for CSS that the browser does not interpret
+
+
+Common data types
+————
+
+datatypes		- keywords, number, length, image, url. 
 
 
 
