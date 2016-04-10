@@ -211,8 +211,45 @@ Different ways we can use list properties to control the appearance of our order
 
 list-style-type		- sets the appearance of a list item
 list-style-position	- sets the position of a list marker
-list-style		- shorthand 
+list-style		- shorthand i.e ‘list-style: square inside url("sqpurple.gif”);’
 
+
+Text Shadows
+————
+
+text-shadow:		- accepts 3 lengths values and colour value. 5px x, 5px y, 0 blur radius, colour value i.e ‘0 1px 1px rgba(0,0,0,0.1);’
+multiples 		- using multiple layers to create an entire text effect. 
+
+
+Box shadow
+————
+
+box-shadow:		- cast shadows off of elements, same way text shadow works, horizontal, vertical, blur, colour. 
+spread value		- 4th attribute that gives spread of shadow i.e “horizontal, vertical, blur, spread, colour”
+inset 			- bring shadow inside element, must be declared either first of last. 
+
+
+Border radius
+————			
+
+border-top-left-radius	- comprises of 4 separate values, one for each corner. Values can be length values or percentages. 
+border-radius:		- shorthand just lists the 4 values same as clockwise padding / margin i.e ‘border-radius: 20px 10px 20px 10px;’ 
+
+
+CSS gradients
+————	
+
+Give depth with gradual transitions between two or more colours. 
+
+linear-gradient(#, #,)	- two colours by default top to bottom. change with ‘to left,’ i.e ‘linear-gradient(to left, #, #);’ Rotate with 0deg, 
+radial-gradient(#, #,)	- Similar to liner gradient, change shape using keywords i.e ‘radial-gradient(circle, #, #)’ & position using ‘at’ i.e ‘…(circle at top, #, #);’
+colour-stops		- colour value and position value, stop gradients at specific points. just add more colours i.e. # 50%,# 10%,# 40%,  
+
+
+Transparent Gradients and Multiple Backgrounds
+————	
+
+Use multiple background values by separating with a comma. 
 
 
 
