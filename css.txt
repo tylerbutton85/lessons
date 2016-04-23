@@ -241,15 +241,72 @@ CSS gradients
 
 Give depth with gradual transitions between two or more colours. 
 
-linear-gradient(#, #,)	- two colours by default top to bottom. change with ‘to left,’ i.e ‘linear-gradient(to left, #, #);’ Rotate with 0deg, 
-radial-gradient(#, #,)	- Similar to liner gradient, change shape using keywords i.e ‘radial-gradient(circle, #, #)’ & position using ‘at’ i.e ‘…(circle at top, #, #);’
-colour-stops		- colour value and position value, stop gradients at specific points. just add more colours i.e. # 50%,# 10%,# 40%,  
+linear-gradient(#, #,)					- two colours by default top to bottom. change with ‘to left,’ i.e ‘linear-gradient(to left, #, #);’ Rotate with 0deg, 
+radial-gradient(#, #,)					- Similar to liner gradient, change shape with keywords i.e ‘radial-gradient(circle, #, #)’ & position using ‘at’ i.e ‘…(circle at top, #, #);’
+linear-gradient(#ffa949, transparent 90%),		- colour value and position value, stop gradients at specific points. just add more colours i.e. # 50%,# 10%,# 40%,  
 
 
 Transparent Gradients and Multiple Backgrounds
 ————	
 
-Use multiple background values by separating with a comma. 
+Use multiple background values by separating with a comma, first value listed is top layer rendered, last value is the very bottom. 
+
+  background: linear-gradient(#ffa949, transparent 90%), // orange from top 
+              linear-gradient(0deg,#fff, transparent), // bottom white 
+              #ffa949 url('../img/mountains.jpg') no-repeat center; // background image at bottom
+
+
+- Stacked up background using colour gradients and images. This is achieved by staking transparent backgrounds and using colour stops to set where gradients start and finish. 
+
+
+Web Fonts with @font-face 
+————	
+
+Web fonts are special types of fonts that are optimized for screen display, and they're linked to our web pages from an external source, then activated when needed. Be aware of load time, only embed fonts that are needed. 
+
+@font-face 	- Specifies web font and links to location
+EOT		- Embedded Open Type, used for IE, IE 9 compatibility mode.   
+WOFF		- Web Open Font Format, newer format by moz that is supported by newer browser, compressed so loads faster. 
+TTF		- True Type Format, used for iOS, Safari, Android. 
+letter-spacing	- Increase space between fonts.
+font-weight	- Change font weight. 
+
+
+
+Media Queries
+————	
+
+CSS Media Core has give us a convenient way of targeting different devices, resolutions, browser dimensions, and more. Media queries enhance browsing experience of websites on multiple devices or view ports because content can respond and adapt to the device that is displaying it. 
+
+
+
+@media ()			- Specifies the media type that we want to target
+@media all()			- All is default, if unspecified all devices will be applied. 
+Media feature			- Way of defining what we target, we can check for width, height and max-width and height or device orientation. 
+@media (max-width: 960px)	- will query max width of viewport. Can make changes to CSS when media query is applicable
+
+
+The Cascade: Importance
+————
+
+The Cascade is what determines which styles are assigned to an element. Without the Cascade, CSS might as well stand for Conflicting Style Sheets.
+
+Importance		- Depends on origin of the style sheet, User Agent Styles (browser default) or User styles or Author styles. Author has most importance.  
+Specificity		- Most specific declaration over rides. Inline most specific, then ID then Class. 
+Source order		- Then the source order is considered… last style gets applied because of the sources is newest. 
+
+
+
+Inheritance
+————
+
+Inheritance in CSS means that an element’s style values are copied from its parent element. Inheritance allows us to keep styles consistent throughout a website without having to repeat them in our code.
+
+initial			- displays property of the browsers initial value. 
+inherit			- Child elements receive Parent elements properties. 
+
+
+
 
 
 
