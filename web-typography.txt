@@ -1,0 +1,102 @@
+What is Typography?
+————
+
+Typography is the visual component of the written word. This means typography comes in to play when words are visually displayed on services like screens, paper, posters, signs, and more.
+
+A major purpose behind typography is utility. This means presenting the text in a way that is useful, clear, and legible to it's reader.
+
+Another purpose behind typography is design. Type can have a personality or mood. It gives off a certain vibe, and conveys something to the reader before they've even digested a single word on the page.
+
+
+Terminology 
+————
+
+Typeface	- Design of a collection of characters.
+Font		- Single instance or embodiment of a specific weight, width or style.
+
+Cap height	- Height of capital letter.
+Baseline	- Guideline for where majority of characters rest.
+X-height	- height of lower case letters, determined by letter ‘x’. Can drastically effect legality at small sizes. 
+Descender	- Parts of characters that decent below the base line. 
+Ascender	- Parts of characters that ascent above the cap height. 
+
+Serif		- Serifs are projections that finish off the main strokes of a letter.
+Sans serif	- Without serifs
+Contrast	- Differences between thick & thin strokes within a character. Face without variying thickness of strokes has less contrast than a typeface that does. 
+Contrast 	- Can also describe how letter appears on its background i.e B/O/W or W/O/B. 
+Colour		- Actual colour of word or element / Overall density of ink on a page. Different weights relative to space. 
+
+
+
+Different Types of Type
+————
+
+Genres or type and their characteristics. Way that letters look often conveys a messages to the viewer. 
+
+
+Serif		- Humanist, Old Style, Transitional, Didone, slab. 
+
+Humanist 	- Humanist typefaces arose in the 1460's and 1470's with strong calligraphic influence. Lower x-heigh, unrefined serifs, lower contrast. i.e Janson, Kennerley and Centaur.
+Old Style	- Old Style came about next in the later part of the 15th century. The letter forms were getting more refined as type and less influenced from calligraphy. i.e Goudy Old Style, Palatino, Perpetua and Plantin.
+Transitional	- 18th century transitional Typefaces on the rise. Decreasing calligraphic flow continues with flatter serifs and exaggerated contrast between thicks and thins i.e Baskerville, Bookman, and Clearface (ITC).
+Dione		- Last 18th C No calligraphic influence, thinner serif, extreme contrast… high fashion great at large sizes. i.e Bodoni and Didot.
+Slab serif	- Early 19th C extreme serif sizes a and less contrast. Used as headings as they’re bold at large sizes. i.e Rockwell, Clarendon and Egyptinne.
+
+Sans Serif	- No serifs literally without serif.
+
+
+Grotesque	- Late 19th C, I.e Akzidenz-Grotesk derived from Didot as they have similar characteristic. 
+Neo-Grotesque	- More common sans-serifs i.e Helvetica and universe. Similarities between characters can compromise legibility as body copy. 
+Humanist	- i.e Tahoma, Gill Sans and Frutiger… more legible as body copy as they have more contrast between strokes.
+Geometrics	- i.e Futura, bank gothic basic on geometric shapes. 
+
+Scripts		- Typefaces based on handwriting. 
+
+Formal		- Based on 17th / 18th C masters writing some contrast like quill. Typified by weddings. 
+Casual		- More free and casual, more light hearted less formal. 
+
+
+
+Print vs. The Web
+————
+
+Desktop fonts	- Locally Stored, work well with applications for use intended for print and desktop apps
+Web fonts	- Not stored locally, intended for websites, fairly new to industry stands.
+Browsers	- Lots of various browsers render fonts at their own sizes.
+Licensing	- Should not upload licensed desktop fonts online as web fonts. =
+
+
+Choosing a Text Typeface for the Web
+————
+
+Think about context, i.e. Paragraphs, Headings or Navigation. Text face vs Display face. Text face can be called ‘anchor face’ try to get legibility right. Mood of face should work well but don’t sacrifice legibility. 
+
+X-height	- Find ext high that will work well for text font.
+letter spacing	- Enough letter spacing to read at a smaller size.
+counters	- large open counters are nice ad.
+
+old style no.	- below baseline work well with body type.
+lining no.	- better for display and headlines.
+
+Make sure you get what you need, range or weight? italics? Widths? Small caps? Need accented characters? 
+
+
+
+Choosing a Display Typeface for Web
+————
+
+Display typefaces are meant for larger sizes like big headlines, site titles, or pool quotes. This allows for a bit more expressive and creative opportunity with letter forms.
+
+Legibility	- Even though these are displayed at larger sizes, should still be easy to read. 
+Mood		- Does the mood of the header fit the content, can be more expressive. 
+History		- Period fonts for sites with historical settings.
+Industry	- Make sure that they’re specific to industry.
+
+
+
+
+
+
+
+
+
