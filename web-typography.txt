@@ -93,10 +93,48 @@ History		- Period fonts for sites with historical settings.
 Industry	- Make sure that they’re specific to industry.
 
 
+Self-hosted Webfonts
+————
+
+self-hosted 	- This means actual web-fonts hosted yourself and served up via the @web-font.
+licence 	- ensure licensed for web use. 
+Subsets		- Create customer subsets of fonts when self hosted.
+ 
+
+Webfont Hosting Services
+————
+
+Webfont host	- Used via annual subscriptions, embedded JS allows you to call these in, also use googlefonts
+access		- cheap large context.
+easy		- can be implemented without trouble.
+server		- have to rely on third party server, if down could be problematic.
+exact		- may not have exact font you want to use. 
 
 
+Fontstack	- providing list of fall back fonts, selecting native fonts for both mac and window
 
 
+Weights and Styles
+————
+
+Faux bold	- Don’t fake bold with CSS, it can cause legibility issues. Provide better experience. 
+Faux italic	- Again, font use faux as they’re not just slanted there are totally different characters. 
+
+weight		- set numerical value from 100 - 900, lots of potential weights. 
+font style	- bold / italic 
 
 
+Font-Sizing: Px, Em, and Rem
+————
 
+px		- fixed unit,  16 - 24 is good rule of thumb, larger sizes better for comfortable reading. Causes issues with responsive design.
+em		- relative units that scale depending on their parent. Can create compound issues when nesting. 
+rem		- Instead of being relative to parent Rems are relevant to root html size. 
+
+
+Horizontal Space: Measure and Margins
+————
+
+measure		- term used to describe the length of a line. 45 - 75 characters being optimal.
+max width 	- use to restrict measure, good place to start it by multiplying body font by 30. 
+whitespace	- use margin padding to give type room to breath, restricted white space can make page seem flustered and cramped.
