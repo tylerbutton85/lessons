@@ -138,3 +138,31 @@ Horizontal Space: Measure and Margins
 measure		- term used to describe the length of a line. 45 - 75 characters being optimal.
 max width 	- use to restrict measure, good place to start it by multiplying body font by 30. 
 whitespace	- use margin padding to give type room to breath, restricted white space can make page seem flustered and cramped.
+
+
+
+Vertical Space: Line-Height and Vertical Rhythm
+————
+
+Line height, also referred to as letting or line spacing, deals with the vertical space between consecutive lines of text. Vertical rhythm balance layout and enhance readability, consistent and line and paragraph encourages readers to see a pattern an continue to read.
+
+line-height	- add space between top and bottom of line of text, based on font size. 
+baseline	- Ensuring text and paragraphs are to baselines will make much more constant vertical rhythm. Although hard to achieve without using static layouts. 
+poor rhythm	- text off baseline.
+
+
+Typographic Hierarchy: Weight, Style, Size, and Position
+————
+
+Information sorted by its importance, dictated by size and colour. Presenting information in a relevant order. Can be used to give emphasis where needed, text-transform can be used to achieve this. 
+
+uppercase	- emphasis, impact, authority, over use can really effect readability. 
+Small caps	- less ‘in your face’ uppercase characters at smaller size, just above x-height, works for abbreviations and official headings, work great with old style numbers.
+
+proportion	- pair typefaces with similar proportions.
+personality	- pair faces with similar ‘moods’ that play well together.
+history		- pair faces with similar historical periods.
+designer	- pair faces from similar type designers.
+
+
+
