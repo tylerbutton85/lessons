@@ -5,3 +5,112 @@ Sketch is an easy to use and powerful digital design tool for the Mac, made by B
 
 Its popularity and fan base has been ever increasing and is now widely recognised and the design tool of choice for many digital companies and startups throughout the world.
 
+
+
+Sketch interface
+————
+Broken into 4 parts, toolbar, infinite canvas, layer list & inspector. 
+
+Toolbar		- Main toolbar contains everything needed to make new designs.
+Insert		- Anything selected here will create a new layers, building blocks for designs. 
+Group/ungroup	- Options for keeping doc organised.
+Create symbol	- Powerful tool for creating symbol instances of objects.
+Zoom		- show more / less indicated by % increment.
+Editing controls	- Edit / transform, rotate allow you to manipulate shapes. 
+masks/scale	- Clip layers to shapes and scale them. 
+baleen opt	- explained later. 
+Fwd/Bck		- Organise layers.
+Mirror		- preview on mobile device.
+view		- Show and hide visual aid’s
+exports		- own stage entirely. 
+Canvas		- Infinite in every direction recenter with ‘view > centre canvas’ 
+Inspector	- show items properties, change colours and style of a layer.
+Layer list	- all layers appear, can be organised and arranged. 
+
+
+
+Selecting, Moving, and Resizing Layers
+————
+
+Selecting	- Hover > blue outline > click… show what is being selected or select from layer list. 
+Selected	- when selected you can see the 8 handles, clicking and dragging alters size. 
+Sizing		- Change the size directly in property panel with values. 
+Moving		- Just drag around layer. arrow key nudges 1 px, hold shift + arrow key nudges in 10px increments.
+duplicate	- Right click > duplicate, directly above. Alt + Drag also creates a duplicate of layer. 
+
+
+
+Deleting, Locking and Grouping Layers
+————
+
+Delete		- Select desired layer and hit backspace, right click and select delete. 
+Hide layer	- Hover over layer in layer list until ‘eye’ icon appears click and toggle to hide. 
+Locked layer	- Remains visible but can only be selected via the layer list. Right click > Lock layer. 
+Grouping	- Grouped items appear in a folder within the layer list. moving this folder moves all layers within. Use icon in tool bar or right click to toggle grouping. 
+Smart guides	- Shows what other layers can snap to, and show distances. Hold Alt key to display px distance. 
+
+
+
+Moving Through Your Document
+————
+
+Canvas		- Scroll using track pad, or hold space and click and drag to move around canvas. 
+Rulers		- View > Show rules toggles rulers. 
+Zooming		- -/+ on zoom icon to zoom in and out. / Z+Click to zoom in and Z+alt+Click to zoom out / command +/- to zoom in and out via keyboard. 
+
+
+Styling Your Layers
+————
+
+Colour		- Change via the property panel on the right, click fill and select desired type. 
+Gradients	- Radial, angular select from above colour. 
+Fills		- Add noise and patters to fills also. 
+Opacity		- Change the opacity of colour with the slider.
+Colour picker	- Pick any colour even outside of sketch window, using either RBGA or HEX. 
+Borders		- underneath fill in property panel, add borders, choose border position and thickness. COG icon allows dashed lines and joins / ends
+add icons	- add multiple fils and shadows, layers above one another.
+Blend modes	- Changing blend mode lets you mix layers or colours into one another. 
+CSS		- Right click > Copy CSS attributes copies css to clipboard that can be used directly within CSS file. 
+Shared styles	- Create shared style of a layers blend and fill options to easily duplicate on another shape / element. 
+
+Shapes and Vectors
+————
+
+Line tool	- Click and drag to create lines, draws path with a border - no fill. 
+Arrow		- Same as line tool but creates a arrow head at one head. 
+Rectangle 	- hotkey ‘r’ creates a rectangle, holding shift sets height and width to same proportion. Radius changes corner radius. 
+Oval		- hotkey ‘o’ creates a circle, holding shift sets hight and with to same proportion.
+Rounded		- Rectangle with rounded corner same as others. 
+Star		- Add points and adjust radius within properties panel. 
+
+Booleans	- Create a union, can move around by opening combined shape folder. 
+Union		- Combines paths.
+Subtract	- Removes one path from another. 
+Intersect	- Shows only intersecting part of path.
+Difference	- Shows everything but the intersecting part of a path. 
+
+
+Using the Vector Tool
+————
+
+Vectors		- Using pen tool by clicking and dragging, create handles to adjust arch of curves. 
+Mirrored	- Two angles equal distance from point
+Asymmetric	- moves both handles
+Disconnected	- Move in any direction. 
+Transform	- Add perspective by moving circular handles. 
+Rotate		- Rotate by any dimension, change rotation point by dragging ‘crossed circle’ to desired point. 
+Flip		- Flip horizontal or vertically within the properties panel. 
+Masking		- 2 layers over lapping can be masked on top of one another in an un-destricutive way. 
+
+
+Working with text
+————
+
+Text tool	- Hot key ’T’ or use inner text and type desired text. By default text width is infinite. 
+Fixed width	- Toggle with to fixed to give it a container. Click and drag to create a ‘fixed width’ text box. 
+Style options	- within properties panel, colour, don’t size and font weight. 
+
+ 
+
+
+
