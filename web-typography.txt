@@ -166,3 +166,35 @@ designer	- pair faces from similar type designers.
 
 
 
+Responsive Typography 
+————
+
+Responsive typography is a subset of responsive design, focusing solely on the typography as a response to different screen sizes. Alter widths to give plenty of space for type to breath. Don’t use pixels in responsive type. 
+
+body font size	- Increase or decrease according to viewport, it’s okay to scale down body for mobile. 
+Orphan		- Single word on a line
+&nbsp;		- use nonbreaking space instead of a ‘space’ to keep two words on same line. 
+headings	- prone to be too big on mobile
+measure		- use as a basis for breakpoints (when measure gets to long / short alter layout / scale)
+
+
+
+Advanced Web Typography
+————
+
+Kerning, letter spacing, ligatures.
+
+letter spacing	- aka ‘tracking’ effects every character that it’s applied too, tighter heavier / wider lighter looking. Don’t adjust too wide as spaces and letters can get muddled.  
+Kerning 	- Amount of space between specific letters, not whole body of copy. Adjust to be evenly spaced. (requires CSS to make auto in some browsers. 
+ligatures	- Ligatures improve the appearance of text for letters that are too close together. They create a smooth transition between letters by connecting certain character combinations. E
+font-feature-settings: “liga”	- Enable ligatures for fonts with ligature support. 
+Widow		- Single line of text that flows over to a single column. 
+Reverse		- over justified, large gaps between text.
+Rags		- un-even gaps at the end of left aligned text - large gaps problem. 
+Smart quotes	- Use smart quotes and proper characters by using html character entities. (open and closed quotes i.e &ldquo; and &rdquo;)
+Hyphens		- Don’t use hyphens to interrupt text, use ‘en dashes’ they’re longer and used to indicated ranges of numbers. ‘en dashes’ are even longer, and used for a ‘break in thought.’
+Horizontal ellipsis	- Don’t use ‘…’ use ‘&hellip;’ html entity.
+Alignment 	- Create even alignment for quotations and lists, position characters outside of margin to create emphasis… use negative text-indent. 
+Icon-fonts	- Utilise icon fonts. Icon fonts can speed up design process and be 90% smaller than SVG and load 14% quicker.
+VH / VW		- viewport height/width new measurements. 
+
