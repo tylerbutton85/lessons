@@ -9,10 +9,9 @@ Completed lessons;
 13/02/16 - Building a website with HTML & CSS
 23/04/16 - CSS Basics
 21/05/16 - Web Typography
+12/06/16 - Sketch
 
 Lessons in progress; 
-21/05/16 - Sketch
-
 
 
 

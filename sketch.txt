@@ -108,9 +108,22 @@ Working with text
 
 Text tool	- Hot key ’T’ or use inner text and type desired text. By default text width is infinite. 
 Fixed width	- Toggle with to fixed to give it a container. Click and drag to create a ‘fixed width’ text box. 
-Style options	- within properties panel, colour, don’t size and font weight. 
+Style options	- within properties panel, colour, font size and font weight. 
+Layer Styles	- Can also be applied to text layers. 
+Text to shape	- Text layers can also be converted into shapes but cannot be reverted. 
+Text styles	- When a text style is changed, it is changed globally. Create new text style > Name. 
 
- 
 
+Working with Slices
+————
 
+Slice tool	- Found from ‘insert’ menu, click an drag to select area to export. Or ’S’ Shortcut
+Name Slices	- When creating slice you can name it using the left panel.
+Transparent BG	- Ensure slice is part of correct group and select ‘export group contents only’ to remove BG.
+Automatic slice	- With slice tool selected click object you wish to slice and it will automatically create slice the size of object.
+Hide		- Click blue slice symbol underneath layer list. 
+Exporting	- Choose export sizes and click ‘export’ in top right, confirm slices and export. 
+Make exportable	- click ‘make exportable’ automatically creates exportable layer to correct size, click slice icon to turn into slice.
+
+Sketch Mirror	- Once downloaded connect device to same network and hit ‘mirror’ icon.
 
