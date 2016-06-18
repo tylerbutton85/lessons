@@ -1,0 +1,20 @@
+Getting Started with Sass
+————
+
+
+What is Sass? 
+
+Subset of CSS invented 2006 by Hampton Catlin.  
+
+- CSS extension language that complies in to CSS
+- First of modern transcompiler languages 
+- Others include Coffee script and LESS. 
+- A compiler, takes input and turns into output. 
+
+
+Instilling Sass 
+————
+
+gem, install, sass	- Install Sass
+Sass —-version		- Check version
+Sass —- .		- watch current folder
