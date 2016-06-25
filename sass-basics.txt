@@ -10,11 +10,126 @@ Subset of CSS invented 2006 by Hampton Catlin.
 - First of modern transcompiler languages 
 - Others include Coffee script and LESS. 
 - A compiler, takes input and turns into output. 
+- Sass for developers, CSS for browsers.
 
 
 Instilling Sass 
 ————
 
-gem, install, sass	- Install Sass
+gem install sass	- Install Sass
 Sass —-version		- Check version
-Sass —- .		- watch current folder
+Sass —-watch .		- watch current folder
+
+Two versions, Lib Sass and Sass, Lib Sass is more portable. 
+
+
+Nesting Selectors
+————
+
+DRY - Don’t repeat yourself, Sass allows you not to repeat styles. And stops you from repeating yourself, the Sass compiler writes the repetitive css for you. 
+
+
+Nesting the CSS as below allows you to stop reading sector names and making scoping the css easier. 
+
+Although nesting is great, don’t over do it, try not to go more than 4 or 5 layers deep.
+
+Helps clean up CSS and make things easier to read.
+
+
+— INPUT — 
+
+.blog .entry {
+  h1 {
+  font-size: 20px;
+  color: blue;
+  }
+
+  p {
+  font-size: 12px;
+  color: red;
+  }
+}
+
+— OUTPUT —
+
+.blog .entry h1 {
+  font-size: 20px;
+  color: blue; }
+.blog .entry p {
+  font-size: 12px;
+  color: red; }
+
+
+
+modernizr
+————
+
+Modernizr detects browser features and applies classes on HTML tag that allows you to dynamically determine what that browser can do. Helps you writes code that is compatible with any browser. 
+
+
+Advanced Nesting
+————
+
+& - Allows you to take CSS selectors and the nesting and put them where you like.
+
+p {
+font-size: 12px;
+margin:  20px;
+html.csscolums & {
+    column-count: 2;
+    column-gap: 10px;
+    margin: 10px;
+  }
+}
+
+When nesting were grouping things together and then describing their attributes in the order they appear. 
+
+.blog {
+  > h1 {
+    color: red;
+    border: 1px solid red;    
+  }
+  .entry {
+    h1 {
+    font-size: 20px;
+    color: blue;
+    }
+
+    p {
+    font-size: 12px;
+    margin:  20px;
+    html.csscolums & {
+        column-count: 2;
+        column-gap: 10px;
+        margin: 10px;
+      }
+    }
+
+    a {
+      color: red;
+      &:hover {
+        color: blue;
+      }
+    }
+  }
+}
+
+Using & pre and post
+
+p{
+    a{
+    color:red;
+        div.footer &{color:purple;}
+        }
+    &>a{
+       color:blue;
+           &:hover{opacity: 0.5;}  
+         }  
+}
+
+takes selectors above and below and applies them where specified. 
+
+
+
+
+
