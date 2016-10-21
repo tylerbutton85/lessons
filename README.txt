@@ -14,5 +14,4 @@ Completed lessons;
 Lessons in progress; 
 
 18/06/16 - Sass Basics
-
-
+21/10/16 - Javascript Basics
