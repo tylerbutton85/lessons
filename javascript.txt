@@ -1,4 +1,84 @@
 Javascript Basics
 ————
 
+JS used to add interactivity such as parallex scrolling, light boxes and generally immersive websites. We applications depend on javascript. 
+
+Isn’t limited to just web browser, can also be used server side, node.js is a great example of this, lots of big businesses use node.js. Desktop applications are also produced in Javascript. Vast capabilities and application. 
+
+This course will cover the following; 
+
+- Syntax // different commands special words and punctuation. 
+- Programming concepts // common ideas used in various languages (variables, arrays etc) 
+- Vocabulary // Programming terms that enable you to explain various programming terms.
+- Techniques // Best practices and ideas that make it easy. 
+
+Statement	- Like a sentence, statements have to finish with “;”
+Program		- Set of statements that runs one after another, statement needs to be complete before next starts.
+
+alert("Welcome");
+document.write("Welcome to JS basics");
+alert("thanks");
+
+Where does Javascript Go?
+
+Browser most common place to encounter and easiest place to practice, browsers read and display content using HTML, style that content using CSS and give interactivity by following instructions in a javascript file. 
+
+Running/executes	- When a browser reads and acts on a javascript program
+
+Link a JavaScript file to a web page using the <script> tag and the src property: 
+
+ie <script src="scripts.js"></script>
+
+Insert JavaScript directly into a web page inside <script> tags:
+
+<script>
+alert("Hello there.");
+</script>
+
+console.log(“”)		- Send a message to directly to js console. 
+debug			- Fix errors for a page 
+
+
+
+Variables
+————
+
+Variables 	- Ways of storing and keep of track of information in a program. 
+var		- short for variable 
+var name	- name a variable 
+var name = 0	- Assign value to variable, value on the right into the variable on the left  
+String		- Series of characters inside quote marks
+value		- information inside a variable can be numbers or strings 
+Numbers		- used for making calculations
+Strings		- used for words messages and other text 
+
+
+var message= "hello!";
+alert(message);
+message = "Welcome to Javascript basics"
+alert(message);
+
+Naming variables — Some words cannot be used to name variables because they’re reserved for something else. i.e. functions
+
+Names can’t start with a number, can only contain letters and numbers and the $ and _ symbols.
+
+Variables should be named something logical, clear and descriptive to make easy to understand, 
+
+
+Strings and Numbers
+————
+
+Numbers		- used for making calculations
+Strings		- used for words messages and other text 
+/		- escape character, use it before or after to make sure it’s treated as normal character, not part of the program. 
+
+Can use single or double quotes for strings, just be consistent. Use single quotes when you need to use double quotes i.e. class name.
+
+
+
+
+
+
+
+
 
