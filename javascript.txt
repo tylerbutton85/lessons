@@ -70,9 +70,91 @@ Strings and Numbers
 
 Numbers		- used for making calculations
 Strings		- used for words messages and other text 
-/		- escape character, use it before or after to make sure it’s treated as normal character, not part of the program. 
+\		- escape character, use it before or after to make sure it’s treated as normal character, not part of the program. 
 
 Can use single or double quotes for strings, just be consistent. Use single quotes when you need to use double quotes i.e. class name.
+
+
+Spaces, tabs and new lines in JavaScript
+————
+
+Javascript can appear on different lines and with different amount of spaces, although you can use these but should really use space to make code easy to read.
+
+Capturing Visitor Input
+————
+
+prompt() captures visitor input from a dialog box. You can store that input in a variable like this:
+
+var answer = prompt('What color is the moon?');
+
+
+Concatenation — The process of combining strings is called "concatenation". In JavaScript, you combine strings with a + operator 
+
+var name = "Dave";
+var message = "Hello " + name;
+
+
+Working with Strings
+————
+
+.length		- returns the number of characters inside a string (counts characters including spaces)
+.toUpperCase()	- returns a copy of a string with all uppercase letters
+.toLowerCase()	- returns a copy of a string with all lowercase letters
+	
+
+console.log(passphrase.length);  - passphrase = object / .length = properly — can access the property of object using ‘.’ 
+
+method		- Something that can be performed on an object () parenthesis are what indicate if something is method. 
+object		- objects have properties also have methods which are actions the object can perform. 
+
+var passphrase = "Open Sesame";
+console.log(passphrase.length);
+console.log(passphrase.toLowerCase());
+console.log(passphrase);
+console.log(passphrase.toUpperCase());
+
+var stringToShout = prompt("What should i shout?");
+var shout = stringToShout.toUpperCase();
+shout += "!!!";
+alert(shout);
+
+var id = "23188xtr";
+var lastName = "Smith";
+var userName = id.toUpperCase() + "#"; // 23188XTR#
+userName += lastName.toUpperCase(); // 23188XTR#SMITH
+
+
+The Variable Challenge
+————
+
+Write what you want to achieve first, then gradually test piece by piece. 
+
+
+"<h2>There once was a [adjective] programmer who wanted to use JavaScript to [verb] the [noun].</h2>"
+
+var adjective = prompt('Please type an adjective');
+var sentence = "<h2> There once was a " + adjective;
+var verb = prompt('Please type an verb');
+var noun = prompt('Please type an noun');
+alert('all done. Here is the message!');
+sentence += ' programmer who wanted to use JavaScript to ' + verb;
+sentence += ' the ' + noun + '.<h2/>';
+document.write(sentence);
+
+
+Working with Numbers
+————
+
+
+
+
+
+
+
+
+
+
+
 
 
 
